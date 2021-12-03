@@ -1,0 +1,25 @@
+.song {
+  display: flex;
+  justify-content: flex-start;
+  width: 40%;
+  margin: 1rem;
+  cursor: default;
+}
+
+.cont {
+  display: flex;
+  align-items: center;
+}
+
+.cont p {
+  margin-right: 1rem;
+  width: 1rem;
+}
+.cont img {
+  width: 3rem;
+  height: 3rem;
+}
+
+.nameInfo {
+  margin-left: 2rem;
+}

@@ -1,0 +1,16 @@
+.songs {
+  width: 100%;
+}
+.songs h1 {
+  margin: 2rem;
+}
+
+.songs h1 span {
+  color: yellow;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.songBox {
+  display: flex;
+  flex-wrap: wrap;
+}

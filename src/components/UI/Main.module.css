@@ -1,0 +1,56 @@
+.main {
+  padding: 5vh 3rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  width: 100%;
+  min-height: 10vh;
+  border-bottom: 1px solid #4d4d4d;
+}
+
+.inputBox input {
+  padding: 0.75rem 1rem;
+  min-width: 40%;
+  outline: none;
+  border: solid 1px #f9fafb;
+  transition: all 0.3s ease-in-out;
+}
+
+.inputBox input:hover {
+  background-color: #111827;
+}
+
+.inputBox input:focus {
+  border: #6e8ed4 solid 1px;
+  background-color: #111827;
+}
+
+.inputBox button {
+  margin-left: 2rem;
+  padding: 0.5rem 1rem;
+  outline: none;
+  border: solid 1px #f9fafb;
+  transition: all 0.3s ease-in-out;
+}
+
+.inputBox button a {
+  text-decoration: none;
+}
+
+.inputBox button:hover {
+  border: #6e8ed4 solid 1px;
+  background-color: #111827;
+  cursor: pointer;
+  box-shadow: 0px 0px 5px #6383d4;
+}
+
+.contentBox {
+  min-height: 80vh;
+  padding: auto 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
